@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://my-json-server.typicode.com/ottomathuss/Week6RestAPI/")
+            .baseUrl("https://my-json-server.typicode.com/ottomathuss/Week6RestAPIs/")
             .build()
 
         var service = retrofit.create(MovieService::class.java)
