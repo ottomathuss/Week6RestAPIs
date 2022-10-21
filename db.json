@@ -1,0 +1,22 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Apartment",
+	  "director": "Billy Wilder",
+	  "year": 1960
+    },
+    {
+      "id": 2,
+      "title": "Some Like it Hot",
+	  "director": "Billy Wilder",
+	  "year": 1958
+    },
+    {
+      "id": 3,
+      "title": "The Legend of Bagger Vance",
+	  "director": "Robert Redford",
+	  "year": 2003
+    }
+  ]
+}
