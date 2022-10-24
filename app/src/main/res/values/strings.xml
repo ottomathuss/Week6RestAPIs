@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Week6RestAPIs</string>
+    <string name="endpoint">movies</string>
 </resources>
