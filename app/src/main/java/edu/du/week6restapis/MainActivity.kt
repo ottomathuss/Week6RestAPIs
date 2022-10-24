@@ -30,7 +30,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+<<<<<<< HEAD
         var model_name= getString(R.string.endpoint)
+=======
+        val retrofit = Retrofit.Builder()
+            .baseUrl("https://my-json-server.typicode.com/ottomathuss/Week6RestAPIs/")
+            .build()
+>>>>>>> 1a76244f1cb174bcc1d64168906b3b4e57aaa3b5
 
         // movies information
         var retrofit = Retrofit.Builder()
